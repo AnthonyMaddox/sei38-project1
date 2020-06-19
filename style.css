@@ -211,8 +211,6 @@ button {
    display: flex;
    justify-content: center;
 }
-
-
 .para5 {
    margin-top: -25px; 
 }
@@ -225,15 +223,13 @@ button {
    text-align: center;
 }
 .feats3-2 {
-   height: 260px;
-   width: 510px;
-   text-align: center;   
+   font-size: 46px;
 }
 
 .dest-button {
    display: flex;
    justify-content: center;
-   margin: 100px auto;
+   margin: 250px auto;
 }
 #dest-button {
    border: 1px solid #EE2655;
@@ -242,17 +238,137 @@ button {
    padding: 14px 50px;
    letter-spacing: 3px;
 }
+.feats3-3 {
+   font-size: 22px;
+   font-style: italic;
+}
 
-
-
-
-
-
-
-
-
+/* testimoni div */
 
 
 .testimoni {
    background-image: url("img/Testimoni-pic.png");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   height: 570px;
+   margin: -100px;
+   display: flex;
+   flex-flow: column wrap;
+   justify-content: center;
+   align-items: center;
+}
+.test-1 {
+   font-size: 70px;
+   color: white;
+   margin: 0;
+}
+.test-2 {
+   font-size: 22px;
+   font-style: italic;
+   font-family: PT serif;   
+}
+.test-3 {
+   color: #FFE200;
+   font-family: PT serif;
+   font-size: 46px;
+   font-style: italic;     
+}
+.test-4 {
+   font-size: 16px;
+   font-weight: bolder;
+   color: white;  
+}
+.test-5 {
+   font-size: 20px;
+   font-family: PT serif;
+   color: white;   
+}
+.border-dash3 {
+   border: 2px solid white; 
+   margin: 0 auto;
+   width: 100px;
+   margin: 25px;
+}
+
+/* blog div*/
+
+.blog {
+  height: 950px; 
+  padding: 30px;
+  margin: 25px 0 -250px 0;
+
+}
+.para6 {
+   margin-top: -60px;
+   font-size: 22px;
+   font-family: PT serif;
+   font-style: italic;
+   color: #727272;
+}
+
+.blog-pics {
+   height: 240px;
+   width: 360px;
+}
+.view-button {
+   border: none;
+   background-color: rgba(255, 255, 255, 0);
+   color: #EE2655;
+   padding: 0;
+}
+
+/* footer div*/
+
+.footer {
+   height: 720px; 
+   background-color: #EE2655; 
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   align-items: center;
+   margin: -140px;
+}
+.footer-nav {
+   background-color: #D51945;
+   color: white;
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 10px;
+}
+.all-rights {
+   font-size: 13px;
+   margin: 32px 0 0 20px
+}
+.foot-t {
+   font-size: 24px;
+   padding-bottom: 50px;
+}
+.foot-nav1 {
+   display: flex;
+   justify-content: space-between;
+   margin-left: 30px;
+}
+.foot-nav2 {
+   display: flex;
+   justify-content: space space-around;
+   margin: 30px 40px 0 0;
+}
+.foot-links {
+   text-decoration: none;
+   color: white;
+   padding-right: 40px
+}
+
+.foot-dashes {
+   display: flex;
+   justify-content: space-around;
+}
+#foot-dash1 {
+}
+#foot-dash2 { 
+}
+.border-dash4 {
+   border: 2px solid white; 
+   width: 100px;
 }
