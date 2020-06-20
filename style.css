@@ -226,6 +226,7 @@ button {
 }
 .pack-para-padding {
    padding-right: 50px;
+   font-weight: bold;
 }
 
 
@@ -264,6 +265,7 @@ button {
 }
 .feat-t {
    font-size: 70px;
+   margin-top: 45px;
 }
 .lux-t-para {
    margin-top: 0px;
@@ -272,6 +274,13 @@ button {
    font-family: PT serif;
    color: rgb(151, 151, 151);
    font-size: 21px;
+}
+.para7 {
+   margin-top: -100px;
+   margin-bottom: -20px;
+   padding: 50px;
+   font-size: 16px;
+   font-weight: bolder;
 }
 .featured-pics2 {
    display: flex;
@@ -375,9 +384,18 @@ button {
 
 .blog {
   height: 950px; 
-  padding: 30px;
-  margin: 25px 0 -250px 0;
-
+  padding: 10px;
+  margin: 25px 0 -120px 0;
+  display: flex;
+  flex-direction: column;
+}
+.blog-div {
+   margin: 0 -20px 0 -20px;
+}
+.blog-blocks {
+   display: flex;
+   flex-direction: row;
+   margin-top: 40px;
 }
 .para6 {
    margin-top: -60px;
@@ -386,7 +404,10 @@ button {
    font-style: italic;
    color: #727272;
 }
-
+.pack-para-padding2 {
+   padding-right: 75px;
+   font-weight: bold;
+}
 .blog-pics {
    height: 240px;
    width: 360px;
@@ -396,6 +417,11 @@ button {
    background-color: rgba(255, 255, 255, 0);
    color: #EE2655;
    padding: 0;
+   font-family: PT serif;
+}
+.detail-titles {
+   margin-right: 20px;
+   padding-right: 50px;
 }
 
 /* footer div*/
@@ -407,7 +433,7 @@ button {
    flex-direction: column;
    justify-content: flex-end;
    align-items: center;
-   margin: -140px;
+   margin: -50px -140px;
 }
 .footer-nav {
    background-color: #D51945;
@@ -450,6 +476,11 @@ button {
    color: white;
    margin-top: -30px;
 }
+.foot-head {
+   font-size: 70px;
+   line-height: 80px;
+   margin-bottom: 100px;
+}
 .shy-para {
    font-size: 22px;
    font-style: italic;
@@ -464,13 +495,11 @@ button {
    padding: 20px 100px 20px 100px;
    margin-top: 30px;
 }
-.foot-head {
-   font-size: 70px;
-}
+
 
 .address {
    color: white;
-   margin-top: 250px;
+   margin-top: 220px;
 }
 
 .address-t {
@@ -480,10 +509,6 @@ button {
 ul {
    list-style-type: none;
 }
-
-
-
-
 #foot-dashes {
    color: white;
    font-size: 40px;
@@ -498,5 +523,11 @@ ul {
    margin-top: -100px;
 }
 
+/* media queries */
 
+@media screen and (max-width: 600px) {
+   * {
+     font-size: small;
+   }
+ }
 
