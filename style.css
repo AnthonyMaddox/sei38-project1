@@ -359,16 +359,64 @@ button {
    color: white;
    padding-right: 40px
 }
-
-.foot-dashes {
+.foot-words {
    display: flex;
    justify-content: space-around;
+   margin-top: -650px;
 }
-#foot-dash1 {
+.foot-shy {
+   height: 442px;
+   width: 510px;
+   color: white;
+   margin-top: -30px;
 }
-#foot-dash2 { 
+.shy-para {
+   font-size: 22px;
+   font-style: italic;
+   font-weight: lighter;
+   margin-top: -20px;
+   font-family: PT serif;
 }
+.foot-button {
+   border: none;
+   background-color: white;
+   color: #EE2655;
+   padding: 20px 100px 20px 100px;
+   margin-top: 30px;
+}
+.foot-head {
+   font-size: 70px;
+}
+
+.address {
+   color: white;
+   margin-top: 250px;
+}
+
+.address-t {
+   margin-left: 40px;
+   font-size: 32px;
+}
+ul {
+   list-style-type: none;
+}
+
+
+
+
+#foot-dashes {
+   color: white;
+   font-size: 40px;
+   font-weight: bolder;
+}
+
 .border-dash4 {
-   border: 2px solid white; 
-   width: 100px;
+   margin: -50px 0 0 40px;
 }
+
+.border-dash5 {
+   margin-top: -100px;
+}
+
+
+
