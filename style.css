@@ -68,6 +68,49 @@ h1 {
 /* experience div */
 
 .experience {
+   display: flex;
+   padding: 0 80px 0 80px;
+}
+.ex-images {
+   display: flex;
+   height: 487px;
+   margin-top: 200px;
+   margin-left: -50px;
+}
+.ex-img2 {
+   background-image: url("img/div1-bottom-pic.png");
+   background-position: center;
+   background-size: cover;
+   margin-left: -50px;
+   height: 380px;
+   width: 458px;
+}
+.ex-img1 { 
+   background-image: url("img/div1-top-pic.png");
+   background-position: center;
+   background-size: cover;
+   margin: -100px 0 0 -350px;
+   height: 380px;
+   width: 458px;
+}
+.ex-t {
+   font-size: 70px;
+}
+.para1 {
+   padding-right: 100px;
+   margin-top: -50px;
+   font-size: 22px;
+   font-family: Pt serif;
+   font-style: italic;
+   color: #8a8a8a;
+}
+.para2 {
+   padding-right: 220px;
+   font-weight: bold;
+}
+
+
+/*.experience {
    height: 488px;
    display: grid;
    grid-template-rows: 61px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
@@ -96,6 +139,7 @@ h1 {
    grid-row: 7 / span 4;
    grid-column: 1 / span 3;
 }
+*/
 
 /* subscribe div*/
 
@@ -108,14 +152,22 @@ h1 {
    align-items: center;
 }
 #email {
-   padding: 15px 100px;
+   padding: 15px 150px;
    background-color: #F85B80;
    border: none;
    margin-right: 10px;
 }
+::placeholder {
+   color: white;
+    
+}
+
 .para3 {
    font-style: italic;
    color: white;
+   font-family: Pt serif;
+   font-size: 22px;
+   font-weight: lighter;
 }
 button {
    border: 1px solid white;
@@ -165,10 +217,17 @@ button {
    margin-top: -50px;
 }
 .para4 {
-   margin-top: -30px;
+   margin-top: -60px;
    margin-bottom: 40px;
    font-style: italic;
+   font-family: PT serif;
+   color: rgb(151, 151, 151);
+   font-size: 21px;
 }
+.pack-para-padding {
+   padding-right: 50px;
+}
+
 
 
 /* featured div */
@@ -176,7 +235,12 @@ button {
 .featured {
    background-image: url("img/world-background.png");
    background-repeat: no-repeat;
+   background-size: contain;
+   background-position: ;
    margin-top: 75px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 }
 .feat-grid1 {
    display: grid;
@@ -201,6 +265,14 @@ button {
 .feat-t {
    font-size: 70px;
 }
+.lux-t-para {
+   margin-top: 0px;
+   margin-bottom: 40px;
+   font-style: italic;
+   font-family: PT serif;
+   color: rgb(151, 151, 151);
+   font-size: 21px;
+}
 .featured-pics2 {
    display: flex;
    flex-direction: row;
@@ -210,9 +282,12 @@ button {
 .feats3 {
    display: flex;
    justify-content: center;
+   margin-top: -40px;
 }
 .para5 {
-   margin-top: -25px; 
+   margin-top: -25px;
+   padding: 0 20px 0 20px;
+   font-weight: bolder; 
 }
 .feat-details {
    font-weight: bolder;
@@ -225,11 +300,16 @@ button {
 .feats3-2 {
    font-size: 46px;
 }
+.feats3-3 {
+   font-size: 22px;
+   font-style: italic;
+   margin-top: -30px;
+}
 
 .dest-button {
    display: flex;
    justify-content: center;
-   margin: 250px auto;
+   margin: 200px 0;
 }
 #dest-button {
    border: 1px solid #EE2655;
@@ -238,10 +318,7 @@ button {
    padding: 14px 50px;
    letter-spacing: 3px;
 }
-.feats3-3 {
-   font-size: 22px;
-   font-style: italic;
-}
+
 
 /* testimoni div */
 
@@ -277,7 +354,10 @@ button {
 .test-4 {
    font-size: 16px;
    font-weight: bolder;
-   color: white;  
+   color: white;
+   padding: 0 100px 0 100px;
+   text-align: center;
+   margin-top: -30px;  
 }
 .test-5 {
    font-size: 20px;
