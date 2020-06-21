@@ -2,40 +2,255 @@
 /* media queries */
 
 /* Small devices (landscape phones, 576px and up) */
- 
- /* Medium devices (tablets, 768px and up) */
- @media screen and (max-width: 768px) {
-   body {
-      background-color: red;
- }
-}
 
+@media screen and (max-width: 576px) {
+   body {
+   background-color: red;
+   }
+}
 /* tablets */
+
+@media screen and (max-width: 768px) {
+
+  header {
+     height: 550px;
+  }
+  nav {
+     height: 70px;
+  }
+  .nav-right {
+     font-size: 12px;
+     padding: 30px 7px 10px 2px;
+  }
+  .title-small {
+     font-size: 20px;
+  }
+  h1 {
+     font-size: 80px;
+  }
+  
+  /* experience div */
+  
+  .ex-img2 {
+     margin: 100px 0 0 0;
+     height: 285px;
+     width: 343px
+  }
+  .ex-img1 { 
+     margin: -150px 0px 0 -300px;
+     height: 285px;
+     width: 343px;
+  }
+  .ex-t {
+     font-size: 50px;
+     line-height: 60px;
+  }
+  .para1 {
+     padding-right: 0px;
+     margin-top: -20px;
+     font-size: 18px;
+  }
+  .para2 {
+     padding-right: 100px;
+  }
+  
+  /* subscribe div*/
+  
+  
+  #email {
+     padding: 15px 100px;
+  }
+  
+  .para3 {
+     font-size: 18px;
+  }
+  button {
+     padding: 14px 25px;
+     letter-spacing: 1px;
+  }
+  
+  /* pack div */
+  
+  .pack-t {
+     font-size: 60px;
+  }
+  
+  /* featured div */
+  
+  .feat-grid1 {
+     display: grid;
+     grid-template-columns: 300px 300px;
+     grid-template-rows: 300px;
+  }
+  
+  .feat-t {
+     font-size: 30px;
+     margin-top: 20px;
+  }
+  .lux-t-para {
+     margin-top: -10px;
+     margin-bottom: 20px;
+     font-size: 18px;
+  }
+  .para7 {
+     margin-top: -100px;
+     margin-bottom: -40px;
+     font-size: 10px;
+  }
+  .featured-pics2 {
+     margin: 0px 0 0 0;
+  }
+  .feat-pics-resize {
+     height: 260px;
+     width: 340px;
+  }
+  .feats3 {
+     margin-top: -40px;
+     margin-bottom: 250px;
+  }
+  
+  .feats3-1 {
+     height: 260px;
+     width: 510px;
+  }
+  .feats3-2 {
+     font-size: 46px;
+  }
+  .feats3-3 {
+     font-size: 22px;
+     font-style: italic;
+     margin-top: -30px;
+  }
+  .dest-button {
+     margin: 200px 0;
+  }
+  #dest-button {
+     padding: 15px 40px;
+     letter-spacing: 1px;
+  }
+  
+  
+  /* testimoni div */
+  
+  
+  .testimoni {
+     height: 500px;
+     margin: -100px;
+  }
+  .test-1 {
+     font-size: 50px;
+  }
+  .test-2 {
+     font-size: 18px; 
+  }
+  .test-3 {
+     font-size: 36px;     
+  }
+  .test-4 {
+     font-size: 14px;  
+  }
+  .test-5 {
+     font-size: 17px;  
+  }
+    /* border dashes */
+  
+  .border-dash {
+     width: 65px;
+  }
+  .border-dash1 {
+     width: 65px;
+  }
+  .border-dash3 {
+     width: 65px;
+  }
+  .border-dash2 {
+     width: 65px;
+  }
+  .border-dash4 {
+     width: 65px;
+  }
+  
+  /* blog div*/
+  
+  .blog {
+    height: 1600px; 
+  }
+  .blog-div {
+     margin: 0 -20px 0 -20px;
+  }
+  .blog-blocks {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     margin-top: 40px;
+  }
+  .para6 {
+     font-size: 18px;
+  }
+  .blog-pics {
+     height: 220px;
+     width: 340px;
+  }
+  .detail-titles {
+     font-size: 28px
+  }
+  
+  /* footer div*/
+  
+  .footer {
+     height: 600px; 
+  }
+  
+  .foot-words {
+     margin-top: -550px;
+  }
+  .foot-shy {
+     height: 442px;
+     width: 510px;
+     margin-top: -30px;
+  }
+  .foot-head {
+     font-size: 50px;
+     line-height: 60px;
+     margin-bottom: 100px;
+  }
+  .shy-para {
+     font-size: 18px;
+     margin-top: -20px;
+  }
+  .foot-button {
+     padding: 15px 60px 15px 60px;
+     margin-top: 30px;
+  }
+  .address {
+     margin-top: 160px;
+  }
+  
+  .address-t {
+     margin-left: 40px;
+     font-size: 32px;
+  }
+  ul {
+     list-style-type: none;
+  }
+  #foot-dashes {
+     font-size: 30px;
+  }
+  }
+
+/* small screens */
 
  @media screen and (max-width: 1200px) {
 
- 
  header {
    height: 550px;
 }
-
 nav {
-   background-color: #FFFFFF;
-   height: 80px;
-   position: relative;
-   top: 10px;
-   width: 90%;
-}
-.nav-left {
-   float: left;
-   padding-left: 30px;
-   margin-top: 20px;
-   font-size: 24px;
-   letter-spacing: 5px;
+   height: 70px;
 }
 .nav-right {
    font-size: 12px;
-   padding: 30px 5px 10px 2px;
+   padding: 30px 7px 10px 2px;
 }
 .title-small {
    font-size: 20px;
@@ -84,80 +299,49 @@ button {
    letter-spacing: 1px;
 }
 
+/* pack div */
+
+.pack-t {
+   font-size: 60px;
+}
 
 /* featured div */
 
-.featured {
-   background-image: url("img/world-background.png");
-   background-repeat: no-repeat;
-   background-size: contain;
-   margin-top: 75px;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-}
 .feat-grid1 {
    display: grid;
-   grid-template-columns: 570px 570px;
-   grid-template-rows: 600px;
+   grid-template-columns: 300px 300px;
+   grid-template-rows: 300px;
 }
-.featured-pics1 {
-   background-image: url("img/Greece-pic.png");
-   background-repeat: no-repeat;
-   grid-row: 1 / span 1;
-   grid-column: 1 / span 2;
-   margin-bottom: 0;
-}
-.feat-overlap {
-   background-color: rgba(255, 255, 255, 0.7);
-   grid-row: 1 / span 1;
-   grid-column: 2 / span 1;
-   text-align: center;
-   line-height: 20px;
-   padding-top: 50px;
-}
+
 .feat-t {
-   font-size: 70px;
-   margin-top: 45px;
+   font-size: 30px;
+   margin-top: 20px;
 }
 .lux-t-para {
-   margin-top: 0px;
-   margin-bottom: 40px;
-   font-style: italic;
-   font-family: PT serif;
-   color: rgb(151, 151, 151);
-   font-size: 21px;
+   margin-top: -10px;
+   margin-bottom: 20px;
+   font-size: 18px;
 }
 .para7 {
    margin-top: -100px;
-   margin-bottom: -20px;
-   padding: 50px;
-   font-size: 16px;
-   font-weight: bolder;
+   margin-bottom: -40px;
+   font-size: 10px;
 }
 .featured-pics2 {
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
-   margin: -150px 0 0 0;
+   margin: 0px 0 0 0;
+}
+.feat-pics-resize {
+   height: 260px;
+   width: 340px;
 }
 .feats3 {
-   display: flex;
-   justify-content: center;
    margin-top: -40px;
+   margin-bottom: 250px;
 }
-.para5 {
-   margin-top: -25px;
-   padding: 0 20px 0 20px;
-   font-weight: bolder; 
-}
-.feat-details {
-   font-weight: bolder;
-}
+
 .feats3-1 {
    height: 260px;
    width: 510px;
-   text-align: center;
 }
 .feats3-2 {
    font-size: 46px;
@@ -167,18 +351,12 @@ button {
    font-style: italic;
    margin-top: -30px;
 }
-
 .dest-button {
-   display: flex;
-   justify-content: center;
    margin: 200px 0;
 }
 #dest-button {
-   border: 1px solid #EE2655;
-   color: #EE2655;
-   background-color: white;
-   padding: 14px 50px;
-   letter-spacing: 3px;
+   padding: 15px 40px;
+   letter-spacing: 1px;
 }
 
 
@@ -186,171 +364,96 @@ button {
 
 
 .testimoni {
-   background-image: url("img/Testimoni-pic.png");
-   background-repeat: no-repeat;
-   background-position: center;
-   background-size: cover;
-   height: 570px;
+   height: 500px;
    margin: -100px;
-   display: flex;
-   flex-flow: column wrap;
-   justify-content: center;
-   align-items: center;
 }
 .test-1 {
-   font-size: 70px;
-   color: white;
-   margin: 0;
+   font-size: 50px;
 }
 .test-2 {
-   font-size: 22px;
-   font-style: italic;
-   font-family: PT serif;   
+   font-size: 18px; 
 }
 .test-3 {
-   color: #FFE200;
-   font-family: PT serif;
-   font-size: 46px;
-   font-style: italic;     
+   font-size: 36px;     
 }
 .test-4 {
-   font-size: 16px;
-   font-weight: bolder;
-   color: white;
-   padding: 0 100px 0 100px;
-   text-align: center;
-   margin-top: -30px;  
+   font-size: 14px;  
 }
 .test-5 {
-   font-size: 20px;
-   font-family: PT serif;
-   color: white;   
+   font-size: 17px;  
+}
+  /* border dashes */
+
+.border-dash {
+   width: 65px;
+}
+.border-dash1 {
+   width: 65px;
 }
 .border-dash3 {
-   border: 1.5px solid white; 
-   margin: 0 auto;
-   width: 75px;
-   margin: 25px;
+   width: 65px;
+}
+.border-dash2 {
+   width: 65px;
+}
+.border-dash4 {
+   width: 65px;
 }
 
 /* blog div*/
 
 .blog {
-  height: 950px; 
-  padding: 10px;
-  margin: 50px 0 -120px 0;
-  display: flex;
-  flex-direction: column;
+  height: 1600px; 
 }
 .blog-div {
    margin: 0 -20px 0 -20px;
 }
 .blog-blocks {
    display: flex;
-   flex-direction: row;
+   flex-direction: column;
+   justify-content: center;
    margin-top: 40px;
 }
 .para6 {
-   margin-top: -60px;
-   font-size: 22px;
-   font-family: PT serif;
-   font-style: italic;
-   color: #727272;
-}
-.pack-para-padding2 {
-   padding-right: 75px;
-   font-weight: bold;
+   font-size: 18px;
 }
 .blog-pics {
-   height: 240px;
-   width: 360px;
-}
-.view-button {
-   border: none;
-   background-color: rgba(255, 255, 255, 0);
-   color: #EE2655;
-   padding: 0;
-   font-family: PT serif;
+   height: 220px;
+   width: 340px;
 }
 .detail-titles {
-   margin-right: 20px;
-   padding-right: 50px;
+   font-size: 28px
 }
 
 /* footer div*/
 
 .footer {
-   height: 720px; 
-   background-color: #EE2655; 
-   display: flex;
-   flex-direction: column;
-   justify-content: flex-end;
-   align-items: center;
-   margin: -80px -140px;
+   height: 600px; 
 }
-.footer-nav {
-   background-color: #D51945;
-   color: white;
-   display: flex;
-   justify-content: space-between;
-   margin-bottom: 10px;
-}
-.all-rights {
-   font-size: 13px;
-   margin: 32px 0 0 20px
-}
-.foot-t {
-   font-size: 24px;
-   padding-bottom: 50px;
-}
-.foot-nav1 {
-   display: flex;
-   justify-content: space-between;
-   margin-left: 30px;
-}
-.foot-nav2 {
-   display: flex;
-   justify-content: space space-around;
-   margin: 30px 40px 0 0;
-}
-.foot-links {
-   text-decoration: none;
-   color: white;
-   padding-right: 40px
-}
+
 .foot-words {
-   display: flex;
-   justify-content: space-around;
-   margin-top: -650px;
+   margin-top: -550px;
 }
 .foot-shy {
    height: 442px;
    width: 510px;
-   color: white;
    margin-top: -30px;
 }
 .foot-head {
-   font-size: 70px;
-   line-height: 80px;
+   font-size: 50px;
+   line-height: 60px;
    margin-bottom: 100px;
 }
 .shy-para {
-   font-size: 22px;
-   font-style: italic;
-   font-weight: lighter;
+   font-size: 18px;
    margin-top: -20px;
-   font-family: PT serif;
 }
 .foot-button {
-   border: none;
-   background-color: white;
-   color: #EE2655;
-   padding: 20px 80px 20px 80px;
+   padding: 15px 60px 15px 60px;
    margin-top: 30px;
 }
 .address {
-   color: white;
-   margin-top: 220px;
+   margin-top: 160px;
 }
 
 .address-t {
@@ -361,15 +464,6 @@ ul {
    list-style-type: none;
 }
 #foot-dashes {
-   color: white;
-   font-size: 40px;
-   font-weight: bolder;
-}
-
-.border-dash4 {
-   margin: -50px 0 0 40px;
-}
-.border-dash5 {
-   margin-top: -100px;
+   font-size: 30px;
 }
 }
