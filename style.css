@@ -39,6 +39,7 @@ nav {
    float: right;
    text-decoration: none;
    font-weight: bolder;
+   color: gray;
 }
 .nav-right-pic {
    float: right;
@@ -244,12 +245,14 @@ button {
 }
 .feat-grid1 {
    display: grid;
-   grid-template-columns: 570px 570px;
-   grid-template-rows: 600px;
+   grid-template-columns: 560px 560px;
+   grid-template-rows: 500px;
 }
 .featured-pics1 {
    background-image: url("img/Greece-pic.png");
    background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
    grid-row: 1 / span 1;
    grid-column: 1 / span 2;
    margin-bottom: 0;
@@ -285,7 +288,7 @@ button {
    display: flex;
    flex-direction: row;
    justify-content: center;
-   margin: -150px 0 0 0 ;
+   margin: -20px 0 0 0 ;
 }
 .feats3 {
    display: flex;
