@@ -506,8 +506,52 @@
   }
   }
   @media screen and (max-width: 576px) {
-   body {background-color: green;
+   body {
+      background-color: green;
    }
+   .experience {
+      display: none;
+   }
+   .pack-para-padding {
+      padding: 10px;
+   }
+   .dest-button {
+      margin-top: 270px;
+   }
+/* head */
+
+   header {
+      height: 500px;
+   }
+   nav {
+      height: 70px;
+   }
+   .nav-left {
+      font-size: 22px;
+      padding-left: 5px;
+   }
+   .nav-right {
+      font-size: 12px;
+      padding: 30px 4px 10px 2px;
+   }
+   .title-small {
+      font-size: 14px;
+   }
+   h1 {
+      font-size: 44px;
+      line-height: 60px;
+   }
+   .nav-right-pic {
+      padding: 0px;
+      margin-right: -20px;
+   }
+
+   /* feats */
+
+.para5 {
+   padding: 0;
+}
+
 
 
 
